@@ -87,7 +87,12 @@ function draw() {
     }
   
   drawSprites();
-  
+  if(score===10){
+    stroke("pink")
+    textSize(20);
+    fill("white");
+    text("Game Over",200,200)
+  }
   stroke("white");
   textSize(20);
   fill("white");
